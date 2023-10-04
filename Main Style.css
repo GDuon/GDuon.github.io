@@ -23,7 +23,8 @@ a {
     /*you can add your own color with : color: #FFF;*/
   }
 section{
-    background: url(/Random5\ B.png);
+    /* background: url(/Pd/Random5\ B.jpg); */
+    background-color: #000;
     min-height: 100vh;
     max-width: 200rem;
     position: relative;
