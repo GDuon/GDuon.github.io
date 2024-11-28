@@ -149,13 +149,13 @@ h2{
     font-family: 'Inconsolata',
 monospace;
 font-size: 35px;
-background-color:rgba(7, 94, 91, 0.24);
+background-color:rgba(5, 76, 74, 0.292);
 border-radius: 25px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     position: absolute;
-    top: 45%;
-    left: 30%;
+    top: 50%;
+    left: 35%;
     overflow: hidden;
     animation: title 4s ease-in-out;
     animation-delay: 0s;
