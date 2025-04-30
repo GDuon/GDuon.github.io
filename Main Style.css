@@ -34,15 +34,13 @@ section{
 }
 
 .myFace{
-    width: 250px;
-    height: 250px;
-    display: grid;
+    width: 12%;
+    height: 26%;
+    display:grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     position: absolute;
-    transform: translate(-60%, 0);
-    top: 8%;
-    left: 50%;
-    border:10px solid rgba(41, 255, 248, 0.5) ;
+    transform: translate(195%, 110%); 
+    border:5px solid rgba(41, 255, 248, 0.5) ;
     border-radius: 50%;
     overflow: hidden;
     animation: myFace 4s ease-in-out;
@@ -67,14 +65,14 @@ section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     position: absolute;
-    top: 65%;
-    left: 28%;
+    top: 59%;
+    left: 36%;
     border: none;
     animation: btn 4s ease-in-out;
     animation-delay: 0s;
     padding: 12px 30px;
     cursor: pointer;
-    font-size: 35px;
+    font-size: 25px;
   }
 
   @keyframes btn {
@@ -85,6 +83,57 @@ section{
         opacity: 1;
     }}
   
+    
+    .myEmail {
+        font-family: 'Inconsolata',
+        monospace;
+        color:rgb(205, 254, 255);
+        background: none;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        position: absolute;
+        top: 52%;
+        left: 36%;
+        border: none;
+        animation: btn 4s ease-in-out;
+        animation-delay: 0s;
+        padding: 12px 30px;
+        cursor: pointer;
+        font-size: 25px;
+    }
+    @keyframes myEmail {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }}
+    
+    .weblink {
+        width: 50%;
+        font-family: 'Inconsolata',
+        monospace;
+        color:rgb(255, 252, 56);
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        position: absolute;
+        top: 45%;
+        left: 36%;
+        border: none;
+        animation: btn 4s ease-in-out;
+        animation-delay: 0s;
+        padding: 12px 30px;
+        cursor: pointer;
+        font-size: 25px;
+    }
+    @keyframes weblink {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }}
+
 
 
 .scroll-Down{
@@ -154,8 +203,8 @@ border-radius: 25px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     position: absolute;
-    top: 50%;
-    left: 35%;
+    top: 30%;
+    left: 38%;
     overflow: hidden;
     animation: title 4s ease-in-out;
     animation-delay: 0s;
